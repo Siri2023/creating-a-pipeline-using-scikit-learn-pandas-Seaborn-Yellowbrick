@@ -7,7 +7,7 @@ Import necessary libraries: importing the necessary libraries for the pipeline, 
 
 ![image](https://user-images.githubusercontent.com/123089800/233320658-074084ab-a0dd-4ec8-98c6-c5818bf43a11.png)
 
-Load and preprocess the data:loading the breast cancer dataset from scikit-learn and convert it to a pandas dataframe. then split the dataset into training and testing sets using the train_test_split function from scikit-learn.  
+Load and preprocess the data: loading the breast cancer dataset from scikit-learn and convert it to a pandas dataframe. then split the dataset into training and testing sets using the train_test_split function from scikit-learn.  
 ![image](https://user-images.githubusercontent.com/123089800/233321517-7f54442a-fbf0-4034-8654-cd609825cccf.png)
 
 ![image](https://user-images.githubusercontent.com/123089800/233321410-167edb52-d7e5-49d1-b30a-6871fbf1632c.png)  
@@ -15,7 +15,7 @@ Load and preprocess the data:loading the breast cancer dataset from scikit-learn
 ![image](https://user-images.githubusercontent.com/123089800/233321622-def144f5-769e-41ee-bb13-30d082d6586e.png)  
 
 
-Build a machine learning model: We initialize a logistic regression model using scikit-learn's LogisticRegression class and fit it on the training data using the fit method.  
+Build a machine learning model: initializing a logistic regression model using scikit-learn's LogisticRegression class and fit it on the training data using the fit method.  
 
 ![image](https://user-images.githubusercontent.com/123089800/233321758-28a349c5-2a28-4053-85ed-e56a3b390366.png)  
 
@@ -24,7 +24,7 @@ Build a machine learning model: We initialize a logistic regression model using 
 ![image](https://user-images.githubusercontent.com/123089800/233321982-efd9278f-1957-4124-83f5-c4a921d5bf87.png)  
 
 
-Visualize model performance: We use Yellowbrick's ConfusionMatrix class to create a confusion matrix plot that visualizes how well the model performs on the testing data. We also use Yellowbrick's LearningCurve class to create a learning curve plot that visualizes the model's performance on the training data as we vary the size of the training set.  
+Visualize model performance: Yellowbrick's ConfusionMatrix class is used to create a confusion matrix plot that visualizes how well the model performs on the testing data. also Yellowbrick's LearningCurve class was used to create a learning curve plot that visualizes the model's performance on the training data as we vary the size of the training set.  
 
 ![image](https://user-images.githubusercontent.com/123089800/233322143-2a84d3b2-9e02-4ce1-bcb9-a1838de11af2.png)  
 
